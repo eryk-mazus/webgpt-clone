@@ -20,7 +20,7 @@ class Crawler:
             sync_playwright()
             .start()
             .chromium.launch(
-                channel="msedge",
+                # channel="msedge",
                 headless=False,
                 args=["--accept-lang=en-GB", "--lang=en-US"],
             )
